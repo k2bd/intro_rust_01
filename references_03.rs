@@ -10,5 +10,5 @@ fn main() {
         println!("{}, World!", k);
     }
 
-    //println!("{}, World!", k);  // NOT ALLOWED!
+    //println!("{}, World!", k);  // Not allowed!
 }

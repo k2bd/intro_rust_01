@@ -5,5 +5,5 @@ fn main() {
     s2.push_str(", World!");
 
     println!("{}", s2);
-    //println!("{}, world!", s1);
+    //println!("{}, world!", s1);  // Not allowed! Use of moved value
 }

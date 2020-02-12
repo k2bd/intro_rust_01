@@ -6,10 +6,10 @@ fn main() {
         let i = &a;
         let j = &a;
 
-        let k = &mut a;  // NOT ALLOWED
-        
+        let k = &mut a;  // Not allowed!
+
         *k +=1;
-        
+
         println!("i+j={}", i + j);
         println!("k={}", k);
     }

@@ -5,5 +5,5 @@ fn main() {
     i2 += 1;
     
     println!("i2 is: {}", i2);
-    println!("i1 is: {}", i1);
+    println!("i1 is: {}", i1);  // Allowed?
 }

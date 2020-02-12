@@ -1,9 +1,14 @@
 fn main() {
     let a = 5;
-    let b = 6;
 
-    println!("The largest of a and b is {}",largest_number(&a, &b));
-    println!("The sum of a and b is {}",a + b);
+    let c;
+    {
+        let b = 4;
+
+        c = largest_number(&a, &b);
+        println!("{}", c);
+    }
+    //println!("{}", c);  // Not allowed!
 }
 
 fn largest_number<'t>(x: &'t usize, y: &'t usize) -> &'t usize {

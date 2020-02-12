@@ -15,9 +15,9 @@ fn main() {
         let k = &mut a;
         
         *k +=1;
-        //a += 1; // Not allowed! Assignment of borrowed value
+        //a += 1; // Not allowed! Use of borrowed value
 
-        println!("a={}", a);  // Not allowed! Why?
+        //println!("a={}", a);  // Not allowed! Why?
         println!("k={}", k);
     }
 
