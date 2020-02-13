@@ -8,4 +8,4 @@ fname = sys.argv[1]
 execute_name, _ = fname.split(".rs")
 
 os.system("clear")
-os.system(f"rustc {fname} && echo 'L&L: Build successful' && echo  && ./{execute_name} && rm ./{execute_name}")  # noqa: E501
+os.system(f"rustc {fname} && echo 'L&L: Build successful' && echo  && ./{execute_name}; rm ./{execute_name}")  # noqa: E501
